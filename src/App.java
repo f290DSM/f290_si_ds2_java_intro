@@ -1,8 +1,9 @@
 import entrada.EntradaDeDados;
-import expressoes.ExpressoesAritimeticas;
+import expressoes.ExpressoesAritmeticas;
+import expressoes.ExpressoesLogicas;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        ExpressoesAritimeticas.executar();
+        ExpressoesLogicas.executar();
     }
 }
